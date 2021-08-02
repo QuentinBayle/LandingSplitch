@@ -1,0 +1,28 @@
+body, h1, h2{
+    margin:0;
+}
+
+#topbar{
+    height:60px;
+    background-image:url(topbar.png);
+    background-size: cover;
+    display:flex;
+}
+
+.nom{
+    line-height: 60px;
+    color:white;
+    margin-left: 75px;
+
+}
+
+img{
+    margin:auto;
+}
+
+h3{
+    float: right;
+    padding-left: 25px;
+    color:white;
+    margin-right: 75px;
+}
