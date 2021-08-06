@@ -1,28 +1,306 @@
+@font-face {
+    font-family: "ProximaSoft";
+    font-style: italic;
+    src: url('/font/ProximaSoft-Bold.woff2');
+}
+
+@font-face {
+    font-family: "Gilroy";
+    font-style: italic;
+    src: url('/font/Gilroy-Light.otf');
+}
+
+@font-face {
+    font-family: "Gilroy_Bold";
+    font-style: italic;
+    src: url('/font/Gilroy-ExtraBold.otf');
+}
+
+p{
+    font-family: 'Gilroy', sans-serif;
+}
 body, h1, h2{
     margin:0;
 }
 
+h1{
+    font-family: 'ProximaSoft', sans-serif;
+}
+
 #topbar{
     height:60px;
-    background-image:url(topbar.png);
+    background-image:url(img/topbar.png);
     background-size: cover;
     display:flex;
 }
 
 .nom{
+    font-size:39px;
     line-height: 60px;
     color:white;
     margin-left: 75px;
 
 }
 
-img{
-    margin:auto;
+#toplogo{
+    margin-left:33%;
+    margin-right:10%;
 }
 
-h3{
+h3{ 
+    font-family: 'ProximaSoft', sans-serif;
     float: right;
     padding-left: 25px;
     color:white;
     margin-right: 75px;
 }
+
+#rencontres{
+    margin-bottom:-15%;
+}
+
+#splitch{
+    display:flex;
+}
+
+#question1{
+    position:relative;
+    z-index:2;
+    margin-top:15%;
+    margin-left:5%
+}
+
+#lea{
+    margin-top:-35%;
+    margin-left:35%;
+}
+
+#etoile{
+    position:relative;
+    bottom: 15%;
+}
+
+#texte{
+    position:relative;
+    left:10%;
+    margin-top:12%
+}
+
+#texte p {
+    line-height: 2.5;
+    margin-bottom: 55px;
+}
+
+#texte a{
+    
+}
+
+#title_recontre{
+    font-size:47px;
+}
+
+#doigts{
+    position:relative;
+    bottom:10%;
+    left:25%;
+}
+
+#coeurs{
+    position:relative;
+    left:23%;
+    top:15%;
+}
+
+#sourire{
+    position:relative;
+    top:15%;
+    left:55%;
+}
+
+#question2{
+    position:relative;
+    top:40%;
+    left:0%;
+}
+
+#splitch{
+    margin:auto;
+    margin-bottom: 50px;
+}
+
+#partner_splitch{
+	display:flex;
+}
+
+#title_partner{
+	margin-top:15%;
+	width:max-content;
+	font-size:47px;
+	margin-left:15%;
+	}
+	
+#background1{
+	position:relative;
+	bottom:25%;
+	z-index:-1;
+}
+
+#background2{
+	position:relative;
+	top:-40%;
+}
+
+#force{
+	position:relative;
+	bottom:21%;
+	left:30%;
+	z-index:2;
+}
+
+#photo_partner{
+	position:relative;
+	margin-left:18%;
+	top:-3%;
+}
+
+#backgroundphoto{
+	position:relative;
+	bottom:45%;
+	left:34%;
+	z-index:-1;
+}
+
+#coeur{
+	bottom:42%;
+	position:relative;
+}
+
+#question3{
+    position: relative;
+    bottom:55%;
+    left:25%;
+}
+
+#jours{
+	margin-top:-42%;
+    margin-bottom:-15%;
+}
+
+#devoile{
+	display:flex;
+}
+
+#tel{
+	height:fit-content;
+	margin-left:5%;
+}
+
+#text_jour{
+margin-left:15%;
+z-index:-1;
+}
+
+#h1jours{
+position:relative;
+bottom:50%;
+font-size:47px;
+width:450px;
+left:12%;
+}
+
+#pjours{
+	left:12%;
+	line-height:3.5;
+	width:400px;
+	position:relative;
+	bottom:50%;
+}
+
+#ajours{
+	position:relative;
+	bottom:45%;
+	left:40%;
+}
+
+.choixtags{
+    justify-content: center;
+    display:flex
+}
+
+.choixtags p{
+    margin-left:2%;
+    padding:15px 35px;
+    box-shadow: 4px 4px 13px -1px rgba(0, 0, 0, 0.11);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+}
+
+#passions{
+    margin-top:55px;
+}
+
+.choixtags p:hover{
+    background-image: linear-gradient(to right, #ce16d7, #8d6bff, #2992ff, #00acff, #0bbef0);
+    -webkit-transition: background-image 1s ease-in-out;
+    transition: background-image 1s ease-in-out;  
+    color:white;
+}
+a{
+    padding:15px 35px;
+    box-shadow: 4px 4px 13px -1px rgba(0, 0, 0, 0.11);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #ce16d7, #8d6bff, #2992ff, #00acff, #0bbef0);
+    color:white;
+
+}
+#backstat{
+    margin-left:25%
+    }
+    
+    #h1stat{
+    width:420px;
+    position:relative;
+    z-index:2;
+    left:35%;
+    bottom:55%;
+    font-size:47px;
+    }
+    
+    #pstat{
+    position:relative;
+    bottom:50%;
+    left:35%;
+    width:450px;
+    line-height:2.5;
+    }
+    
+    #photostat{
+    position:relative;
+    right:25%;
+    bottom:15%;
+    }
+    
+    #stat{
+    margin-top:135px;
+    }
+
+    #statdiv{
+        display:flex;
+    }
+
+    #tags h1, #passions h1, #envie h1, #cherche h1{
+        margin-bottom:25px;
+        margin-top:25px;
+        font-size:44px;
+        margin-left:6%;
+    }
+
+    #tags p, #passions p, #envie p, #cherche p{
+        font-family: "Gilroy_Bold",sans-serif;
+    }
+
+    .iconquest{
+        vertical-align: middle;
+    }
+    
