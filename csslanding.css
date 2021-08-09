@@ -1,18 +1,15 @@
 @font-face {
     font-family: "ProximaSoft";
-    font-style: italic;
     src: url('/font/ProximaSoft-Bold.woff2');
 }
 
 @font-face {
     font-family: "Gilroy";
-    font-style: italic;
     src: url('/font/Gilroy-Light.otf');
 }
 
 @font-face {
     font-family: "Gilroy_Bold";
-    font-style: italic;
     src: url('/font/Gilroy-ExtraBold.otf');
 }
 
@@ -96,6 +93,10 @@ h3{
 }
 
 #title_recontre{
+    font-size: 58px;
+    background:linear-gradient(to right, #ce16d7, #8d6bff, #2992ff, #00acff, #0bbef0);
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
     font-size:47px;
 }
 
@@ -107,7 +108,7 @@ h3{
 
 #coeurs{
     position:relative;
-    left:23%;
+    left:30%;
     top:15%;
 }
 
@@ -133,6 +134,9 @@ h3{
 }
 
 #title_partner{
+    background:linear-gradient(to right, #ce16d7, #8d6bff, #2992ff, #00acff, #0bbef0);
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 	margin-top:15%;
 	width:max-content;
 	font-size:47px;
@@ -201,6 +205,9 @@ z-index:-1;
 }
 
 #h1jours{
+    background:linear-gradient(to right, #ce16d7, #8d6bff, #2992ff, #00acff, #0bbef0);
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 position:relative;
 bottom:50%;
 font-size:47px;
@@ -259,6 +266,9 @@ a{
     }
     
     #h1stat{
+        background:linear-gradient(to right, #ce16d7, #8d6bff, #2992ff, #00acff, #0bbef0);
+        -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
     width:420px;
     position:relative;
     z-index:2;
@@ -303,4 +313,11 @@ a{
     .iconquest{
         vertical-align: middle;
     }
+
+    div#partner_splitch{
+        margin-bottom: 75px;
+    }
     
+    #texte a, #ajours {
+        font-family: 'ProximaSoft',sans-serif;
+    }
