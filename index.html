@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="csslanding.css" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <section id="topbar">
+        <h1 class="nom"> Splitch</h1>
+        <img id="toplogo" src='img/logo.png'>
+        <h3> Télécharger l'App</h3>
+        <h3> Qui sommes-nous ?</h3>
+    </section>
+
+    <section id="rencontres">
+        <div id="splitch">
+            <div id="splittop">
+                <img id="question1" src="img/question1.png">
+                <img id="lea" src="img/lea.png">
+                <img id="etoile" src="img/etoile.png">
+            </div>
+
+            <div id="texte">
+                <h1 id="title_recontre">Fais des rencontres différentes,</h1>
+                <p>Lorem ipsum dolor sit amet, consec. Darod dolor sit amet, valek abalat orie nap oter. Darod dolor sit amet, valek abalat orie nap oter.
+                </p> 
+                <a>Je Télécharge</a>
+            </div>
+            <div id="">
+                <img id="doigts" src="img/doigts.png">
+                <img id="coeurs" src="img/coeurs.png">
+                <img id="sourire" src="img/sourire.png">
+                <img id="question2" src="img/question2.png">
+            </div>
+        </div>
+
+
+
+    </section>
+    <img id="splitch" src=img/splitch.png>
+
+
+    <section id="partner">
+        <div id="partner_splitch">
+            <div id="left_partner">
+                <h1 id="title_partner">Trouve ton partner in crime.</h1>
+                <img id="background1" src="img/background1.png">
+                <img id="background2" src="img/background2.png">
+
+            </div>
+            <div id="right_partner"> 
+                <img id="force" src="img/force.png">
+                <img id="photo_partner" src="img/O_XIvDy0pcs.png">
+                <img id="backgroundphoto" src="img/backgroud3.png">
+                <img id="coeur" src="img/coeur.png">
+                <img id="question3" src="img/question3.png">
+
+            </div>
+        </div>
+        </section>
+
+        <script>
+            window.onscroll = function () {
+                scrollRotate();
+            };
+
+            function scrollRotate() {
+                let image = document.getElementById("telvid");
+                image.style.transform = "rotate(" + window.pageYOffset/135+ "deg)";
+
+            }
+
+        </script>
+    <section id="jours">
+        <div id="devoile">
+            <div id="telvid">
+                <video src="img/videosplitch.mp4" controls autoplay loop width="247" height="620"></video>></video>
+                <img id="tel" src="img/telephone2.png">
+            </div>
+            <div id="text_jour">
+                <img id=backgroundjours" src="img/Logojour.png">
+                <h1 id="h1jours">7 jours pour dévoiler ton profil !</h1>
+                <p id="pjours">Notre application vous permet de rencontrer des gens près de vous facilement, et de bâtir de véritables relations. Découvrez Splitch sur l’App Store dès maintenant !</p>
+                <a id="ajours">Je Télécharge</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="tags">
+        <!-- <script>
+            function test() {
+                var pElements = document.getElementsByTagName('p');
+
+                for (var i = 0; i < pElements.length; i++) {
+                    pElements[i].style.backgroundClip = "text";
+                    pElements[i].style.backgroundImage  = "linear-gradient(to right, #ce16d7, #8d6bff, #2992ff, #00acff, #0bbef0)";
+                    pElements[i].style.color  = "#fff";
+                }
+                
+            }
+        </script> -->
+
+
+
+        <h1> <img class="iconquest" src="img/icon_question.png">  Plutot quel tag pour toi ?</h1>
+        <div class="choixtags">
+            <p onclick="test()" >Good vibes</p>
+            <p onclick="test()" id="choixtag">Une crème</p>
+            <p class="choixtag">Timide</p>
+            <p class="choixtag">Fort tempéramment</p>
+            <p class="choixtag">Féministe</p>
+        </div>
+        <div class="choixtags">
+            <p>Extravagant(e)</p>
+            <p>Second degrès</p>
+            <p>Bon délire</p>
+            <p>Filouterie first</p>
+            <p>Casse-couille</p>
+            <p>Eternel optimiste</p>
+        </div>
+
+    </section>
+
+    <section id="passions">
+        <h1> <img class="iconquest" src="img/icon_question.png"> Choisis tes passions</h1>
+        <div class="choixtags">
+            <p>Mélomane</p>
+            <p>Big dreamer</p>
+            <p>Planet I care</p>
+            <p>Spiritualité</p>
+            <p>Sneakers Addict</p>
+            <p>LGBTQ+</p>
+        </div>
+        <div class="choixtags">
+            <p>Party</p>
+            <p>Street food</p>
+            <p>Gamer</p>
+            <p>Fan de chien</p>
+            <p>Passion pizza</p>
+            <p>Sport extrêmes</p>
+        </div>
+        <div class="choixtags">
+            <p>Concert</p>
+            <p>Anti chat</p>
+            <p>Netflix</p>
+            <p>Astrologie</p>
+            <p>Engagé(e)</p>
+        </div>
+
+
+    </section>
+
+    <section id="envie">
+        <h1> <img  class="iconquest" src="img/icon_question.png"> De quoi a tu envie de parler ?</h1>
+        <div class="choixtags">
+            <p>Sexe</p>
+            <p>Politique</p>
+            <p>Religion</p>
+            <p>Spiritualité</p>
+            <p>Astrologie</p>
+        </div>
+        <div class="choixtags">
+            <p>People potin</p>
+            <p>Histoires drôles</p>
+            <p>Mes passions</p>
+            <p>La connerie des gens</p>
+            <p>Tu préfère ?</p>
+            <p>Best places to go</p>
+        </div>
+        <div class="choixtags">
+            <p>Best memories</p>
+            <p>Bon plans</p>
+            <p>Musique</p>
+            <p>Coming out</p>
+            <p>Tabous</p>
+        </div>
+
+    </section>
+
+    <section id="cherche">
+        <h1> <img class="iconquest" src="img/icon_question.png">  Que cherches-tu ? </h1>
+            <div class="choixtags">
+                <p>Là pour le fun</p>
+                <p>Envie de frisson</p>
+                <p>Débat</p>
+                <p>Cherche du sérieux</p>
+                <p>Sex first</p>
+            </div>
+            <div class="choixtags">
+                <p>One shot</p>
+                <p>Le grand amour</p>
+                <p>Sexfriend</p>
+                <p>Constituer une équipe</p>
+                <p>BFF</p>
+                <p>Le coup de coeur</p>
+            </div>
+
+    </section>
+
+    <section id="stat">
+        <div id="statdiv">
+            <div id="stattext">
+                <img id="backstat" src="img/backstat.png">
+                <h1 id="h1stat">98% des rencontres chez nous ne finissent jamais.</h1>
+                <p id="pstat">Lorem ipsum dolor sit amet, consec. Darod dolor sit amet, valek abalat orie nap oter. Darod dolor sit.</p>
+            </div>
+            <div id="statphoto">
+                <img id="photostat" src="img/imgstat.png">
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

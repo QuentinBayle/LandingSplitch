@@ -192,15 +192,18 @@ h3{
 
 #devoile{
 	display:flex;
+    height:1032px;
 }
 
 #tel{
+    position:relative;
+    bottom:60%;
+    left:15%;
 	height:fit-content;
 	margin-left:5%;
 }
 
 #text_jour{
-margin-left:15%;
 z-index:-1;
 }
 
@@ -213,6 +216,12 @@ bottom:50%;
 font-size:47px;
 width:450px;
 left:12%;
+}
+video{
+    transform:rotate(346deg);
+    position:relative;
+    top:-1%;
+    left:33%;
 }
 
 #pjours{
@@ -252,6 +261,9 @@ left:12%;
     transition: background-image 1s ease-in-out;  
     color:white;
 }
+
+
+
 a{
     padding:15px 35px;
     box-shadow: 4px 4px 13px -1px rgba(0, 0, 0, 0.11);
@@ -318,6 +330,6 @@ a{
         margin-bottom: 75px;
     }
     
-    #texte a, #ajours {
+    #texte a, #ajours{
         font-family: 'ProximaSoft',sans-serif;
     }
